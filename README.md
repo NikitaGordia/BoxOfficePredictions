@@ -32,9 +32,8 @@ Keywords
 cast
 crew
 ```
-* one-hot encoding ```original_language```
 
-* parse ```release_date``` for a month and year
+* parse ```release_date``` for a month, day and year
 
 
 ### Sketch ideas
@@ -113,4 +112,9 @@ crew
 
 * parse ```homepage``` for domain, https...
 
-### Feeds
+### Feed
+
+1. (2.972, 83%) baseline
+2. (2.329, 58%) log transformed revenue
+3. (2.329, 58%) log transformed budget, popularity
+4. (2.325, 58%) clear outliers for popularity
